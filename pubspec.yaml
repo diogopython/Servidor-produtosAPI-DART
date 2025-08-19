@@ -1,0 +1,31 @@
+name: api_produtos 
+description: API de produtos traduzida de JavaScript para Dart
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  # Framework web
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  shelf_cors_headers: ^0.1.5
+  
+  # Autenticação JWT
+  dart_jsonwebtoken: ^2.12.2
+  crypto: ^3.0.3
+  
+  # Banco de dados
+  mysql1: ^0.20.0
+  mongo_dart: ^0.9.3
+  
+  # Utilitários
+  dotenv: ^4.2.0
+  intl: ^0.19.0
+  
+  # HTTP e JSON
+  http: ^1.1.0
+  
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
