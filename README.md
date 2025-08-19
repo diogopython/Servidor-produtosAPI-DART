@@ -69,10 +69,6 @@ PORT=3000 <- porta padrão
 ### 4. Execute a API
 
 ```bash
-dart pub get
-```
-
-```bash
 dart run bin/api_produtos.dart
 ```
 
